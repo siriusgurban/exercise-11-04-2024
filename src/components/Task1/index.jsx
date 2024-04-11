@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { data } from '../constants/data'
+import { data } from '../../constants/data'
 
 function Task1() {
   const dataFetch = useMemo(() => {
