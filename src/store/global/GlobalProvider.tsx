@@ -8,12 +8,15 @@ export const globalContext = createContext()
 const initialValue = {
   basket: 0,
   price: 1.49,
+  form: {},
 }
 
 function reducer(state, action) {
   switch (action.type) {
     case TYPES.BASKET:
       return { ...state, basket: action.payload }
+    case TYPES.FORM:
+      return { ...state, form: action.payload }
 
     default:
       return state

@@ -1,5 +1,4 @@
 export const TYPES = {
   BASKET: 'BASKET',
-  INC: 'INC',
-  DEC: 'DEC',
+  FORM: 'FORM',
 }

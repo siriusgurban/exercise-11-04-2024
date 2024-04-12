@@ -1,11 +1,15 @@
-import Button from 'react-bootstrap/Button'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import FormPerson from './FormPerson'
+import Preview from './Preview'
 
 function Task4() {
   return (
     <div>
-      <h1>New</h1>
-      {console.log('new')}
-      <Button>Submit</Button>
+      <h2>Task 4</h2>
+      <div className="d-flex  justify-content-center">
+        <FormPerson />
+        <Preview />
+      </div>
     </div>
   )
 }
